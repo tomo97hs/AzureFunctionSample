@@ -5,16 +5,16 @@ using Microsoft.Extensions.Logging;
 
 namespace FunctionSample
 {
-    public static class CosmosDbTrigger
+    public static class AddLocation
     {
-        [Function("CosmosDbTrigger")]
+        [Function("AddLocation")]
         public static void Run([CosmosDBTrigger(
-            databaseName: "databaseName",
-            collectionName: "collectionName",
-            ConnectionStringSetting = "",
-            LeaseCollectionName = "leases")] IReadOnlyList<MyDocument> input, FunctionContext context)
+            databaseName: "databasename",
+            collectionName: "collectionname",
+            ConnectionStringSetting = "CosmosDbConnection",
+            LeaseCollectionName = "leases", CreateLeaseCollectionIfNotExists = true)] IReadOnlyList<MyDocument> input, FunctionContext context)
         {
-            var logger = context.GetLogger("Function1");
+            var logger = context.GetLogger("AddLocation");
             if (input != null && input.Count > 0)
             {
                 logger.LogInformation("Documents modified: " + input.Count);
