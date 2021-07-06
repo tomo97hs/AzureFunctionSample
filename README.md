@@ -7,7 +7,7 @@ Using the Cosmos DB Trigger in Azure Functions, when a document is added, it is 
 - Azure Cosmos DB Account or [Azure Cosmos Emulator](https://docs.microsoft.com/ja-jp/azure/cosmos-db/local-emulator?tabs=ssl-netstd21)
 
 ## Result
-Input Document in CosmosDB  
+Input Document 
 ![InputDocument](https://user-images.githubusercontent.com/32330405/124613675-72679980-deae-11eb-9263-a27e08f7933b.png)
 
 Output Processed Document
