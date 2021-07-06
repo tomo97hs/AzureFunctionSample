@@ -1,6 +1,6 @@
 # Azure Functions Samples in .NET5
-This is samples of Azure Functions in .NET5.
-Using the Cosmos DB Trigger in Azure Functions, when a document is added, it is formatted and output to a new collection.
+This is samples of Azure Functions in .NET5.  
+Using the Cosmos DB Trigger in Azure Functions, when a document is added, it is formatted and output to a new collection.  
 
 ## Prerequisites
 - .NET5 SDK
