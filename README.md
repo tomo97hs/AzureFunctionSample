@@ -4,7 +4,7 @@ Using the Cosmos DB Trigger in Azure Functions, when a document is added, it is 
 
 ## Prerequisites
 - .NET5 SDK
-- Azure Cosmos DB Account or [Azure Cosmos Emulator](https://docs.microsoft.com/ja-jp/azure/cosmos-db/local-emulator?tabs=ssl-netstd21)
+- Azure Cosmos DB Account or [Azure Cosmos Emulator](https://docs.microsoft.com/ja-jp/azure/cosmos-db/local-emulator?tabs=ssl-netstd21#download-the-emulator)
 
 ## Result
 Input Document 
